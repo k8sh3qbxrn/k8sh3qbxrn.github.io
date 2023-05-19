@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Soundcloud, icon: soundcloud, url: "https://soundcloud.com/k8sh3qbxrn"}
-  - {title: Subscribe, icon: subscribe, url: "https://www.youtube.com/channel/UCdSjzffclsoeTtIDsIxINmA"}
+  - {title: Subscribe, icon: youtube, url: "https://www.youtube.com/channel/UCdSjzffclsoeTtIDsIxINmA"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
