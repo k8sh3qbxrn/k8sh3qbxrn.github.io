@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mermaid';
+    src: url('https://k8sh3qbxrn.github.io/Mermaid-Bold.woff2') format('woff2'),
+        url('https://k8sh3qbxrn.github.io/Mermaid-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
