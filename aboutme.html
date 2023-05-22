@@ -5,13 +5,22 @@ sitemap: false
 ---
 <img src="about me 3_00000.png"/>
 <style>
-  p {
+  ul {
+    list-style-type: none;
     align: center;
     font-size: 22px;
     font-family: Mermaid-Bold;
   }  
-</style>
-
+  ul li:before {
+        content: '\2014';
+        position: absolute;
+        margin-left: -20px;
+  }
+ </style>
 <body>
-  <p> Lorem ipsum dolor sit amet </p>
+    <ul>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+    </ul>
 </body>
