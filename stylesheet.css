@@ -13,6 +13,11 @@
     font-size: 28px;
     font family: Mermaid-Bold;
   }
+  h1 {
+    align: center;
+    font-size: 28px;
+    font family: Mermaid-Bold;
+  }
   ul {
     list-style-type: none;
     align: center;
