@@ -7,3 +7,21 @@
     font-display: swap;
     font-size: 20px
 }
+<style>
+  h1 {
+    align: center;
+    font-size: 28px;
+    font family: Mermaid-Bold;
+  }
+  ul {
+    list-style-type: none;
+    align: center;
+    font-size: 22px;
+    font-family: Arial;
+  }  
+  ul li:before {
+        content: '\2014';
+        position: absolute;
+        margin-left: -20px;
+  }
+ </style>
