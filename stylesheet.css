@@ -73,9 +73,6 @@ a {
   height: 137px;
   margin: 0;
   padding: 0;
-  border: 4px solid #ffffff;
-  outline: 1px solid #d0d0d0;
-  box-shadow: 0 2px 1px #DDD;
 }
 
 .image-list-small .details {
