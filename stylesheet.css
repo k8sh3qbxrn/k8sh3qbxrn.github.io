@@ -45,3 +45,6 @@ figcaption {
 h4 {
     text-align:center;
   }
+a {
+    white-space: nowrap;
+}
