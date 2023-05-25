@@ -98,3 +98,13 @@ a {
   font-weight: normal;
   margin: 0;
 }
+#pics {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 137px;
+  margin: 0;
+  padding: 0;
+
+}
