@@ -114,3 +114,6 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+#links {
+  text-align:center;
+}
