@@ -117,3 +117,24 @@ iframe {
 #links {
   text-align:center;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#filters {
+  margin-bottom: 10px;
+}
+
+.video-item {
+  display: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.video-thumbnail {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
