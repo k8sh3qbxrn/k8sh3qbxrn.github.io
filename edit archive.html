@@ -3,59 +3,27 @@ permalink: /editarchive.html
 layout: default
 sitemap: false
 ---
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Filter Feature Example</title>
-<style>
-  /* Basic styling */
-  .filter-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-  }
-
-  .item {
-    display: none;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 5px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Video Archive</title>
 </head>
 <body>
-<div class="filter-container">
-  <label for="filter">Filter by: </label>
-  <select id="filter">
-    <option value="all">All</option>
-    <option value="category1">Category 1</option>
-    <option value="category2">Category 2</option>
-    <option value="category3">Category 3</option>
-  </select>
-</div>
-<div class="item category1">Item 1 (Category 1)</div>
-<div class="item category2">Item 2 (Category 2)</div>
-<div class="item category3">Item 3 (Category 3)</div>
-<div class="item category1">Item 4 (Category 1)</div>
-<div class="item category2">Item 5 (Category 2)</div>
-<div class="item category3">Item 6 (Category 3)</div>
-<script>
-  // JavaScript code
-  const filterSelect = document.getElementById('filter');
-  const items = document.querySelectorAll('.item');
-
-  filterSelect.addEventListener('change', function() {
-    const selectedValue = filterSelect.value;
-
-    items.forEach(item => {
-      if (selectedValue === 'all' || item.classList.contains(selectedValue)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  });
-</script>
+  <div id="filters">
+    <label for="category">Filter by Category:</label>
+    <select id="category">
+      <option value="all">All</option>
+      <option value="music">Music</option>
+      <option value="sports">Sports</option>
+      <option value="education">Education</option>
+    </select>
+  </div>
+  <div id="video-archive">
+    <!-- Video items will be generated dynamically using JavaScript -->
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
