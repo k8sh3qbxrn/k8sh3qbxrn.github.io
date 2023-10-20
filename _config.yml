@@ -20,7 +20,6 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "aboutme.html", title: "About Me + Links"}
   - {file: "scenepacks.html", title: "My Scenepacks"}
   - {file: "coloringpacks.html", title: "My Coloring Packs (free!)"}
-  - {file: "edit archive.html", title: "edit archive"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Soundcloud, icon: soundcloud, url: "https://soundcloud.com/k8sh3qbxrn"}
